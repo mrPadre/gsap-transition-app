@@ -173,10 +173,10 @@ const App: React.FC = () => {
               if (el) screensRef.current[index] = el;
             }}
           >
-            {index === 0 && <HomeScreen />}
-            {index === 1 && <AboutScreen />}
-            {index === 2 && <ServicesScreen />}
-            {index === 3 && <ContactScreen />}
+             {index === 0 && <HomeScreen/>}
+          {index === 1 && <AboutScreen isActive={currentScreen === index} />}
+          {index === 2 && <ServicesScreen />}
+          {index === 3 && <ContactScreen />}
           </div>
         ))}
       </div>

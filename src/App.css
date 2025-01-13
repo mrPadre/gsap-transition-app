@@ -22,8 +22,9 @@
 .screen {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   height: 100%;
+  flex-direction: column;
 }
 
 .home-screen {
