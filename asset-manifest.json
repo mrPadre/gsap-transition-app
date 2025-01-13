@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gsap-transition-app/static/css/main.bb1b27ae.css",
+    "main.js": "/gsap-transition-app/static/js/main.cd2d4e5a.js",
+    "index.html": "/gsap-transition-app/index.html",
+    "main.bb1b27ae.css.map": "/gsap-transition-app/static/css/main.bb1b27ae.css.map",
+    "main.cd2d4e5a.js.map": "/gsap-transition-app/static/js/main.cd2d4e5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb1b27ae.css",
+    "static/js/main.cd2d4e5a.js"
+  ]
+}
