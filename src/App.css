@@ -1,0 +1,72 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.screens {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.screen-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.home-screen {
+  background-color: #ff9999;
+}
+
+.about-screen {
+  background-color: #99ccff;
+}
+
+.services-screen {
+  background-color: #99ff99;
+}
+
+.contact-screen {
+  background-color: #ffcc99;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Добавьте эти стили */
+
+.screen.scrollable {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.screen.scrollable .content {
+  padding: 20px;
+}
